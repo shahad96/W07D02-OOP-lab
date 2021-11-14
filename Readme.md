@@ -1,5 +1,7 @@
 # OOP Lab 
 
+* Create project called `School` it has the main method 
+
 * Create two classes named `Teacher` and `Student`. Each class should contain:
     * At least five attributes
     * A constructor
@@ -11,3 +13,23 @@
 * Create a class diagram for the following classes:
     * Student
     * Teacher
+
+Example of class diagram 
+
+```
+public class Person {
+    private String name;
+    private int age;
+
+    public Person(String initialName) {
+        this.name = initialName;
+        this.age = 0;
+    }
+
+    public void printPerson() {
+        System.out.println(this.name + ", age " +   this.age + " years");
+    }
+}
+```
+
+![UML](UML.webp)
