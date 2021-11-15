@@ -3,7 +3,7 @@
 * Create project called `School` it has the main method 
 
 * Create two classes named `Teacher` and `Student`. Each class should contain:
-    * At least five attributes
+    * At least three attributes
     * A constructor
     * A toString method to display the values of all the attributes of each class
 
